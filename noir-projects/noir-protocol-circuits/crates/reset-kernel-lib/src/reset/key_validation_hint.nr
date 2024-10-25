@@ -3,6 +3,7 @@ use dep::types::{
     hash::poseidon2_hash_with_separator, scalar::Scalar, traits::Empty,
 };
 use std::embedded_curve_ops::fixed_base_scalar_mul as derive_public_key;
+use types::merkle_tree::IndexedTreeLeafPreimage;
 
 pub struct KeyValidationHint {
     sk_m: Scalar,
