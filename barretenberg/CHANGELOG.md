@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.61.0](https://github.com/AztecProtocol/aztec-packages/compare/barretenberg-v0.60.0...barretenberg-v0.61.0) (2024-10-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* getcontractinstance instruction returns only a specified member ([#9300](https://github.com/AztecProtocol/aztec-packages/issues/9300))
+* **avm/brillig:** revert/rethrow oracle ([#9408](https://github.com/AztecProtocol/aztec-packages/issues/9408))
+
+### Features
+
+* **avm/brillig:** Revert/rethrow oracle ([#9408](https://github.com/AztecProtocol/aztec-packages/issues/9408)) ([1bbd724](https://github.com/AztecProtocol/aztec-packages/commit/1bbd724eab39c193c1db1d89570eab9358563fe2))
+* **avm:** Avm replace zeromorph pcs by shplemini ([#9389](https://github.com/AztecProtocol/aztec-packages/issues/9389)) ([07d6dc2](https://github.com/AztecProtocol/aztec-packages/commit/07d6dc29db2eb04154b8f0c66bd1efa74c0e8b9d))
+* **avm:** Trace contract class and contract instance ([#8840](https://github.com/AztecProtocol/aztec-packages/issues/8840)) ([84205d8](https://github.com/AztecProtocol/aztec-packages/commit/84205d872067345239913914a84b708d05d8364c))
+* Bytecode hashing init ([#8535](https://github.com/AztecProtocol/aztec-packages/issues/8535)) ([2bb09e5](https://github.com/AztecProtocol/aztec-packages/commit/2bb09e59f648e6182f1097d283451afd3c488d27))
+* Derive address and class id in avm ([#8897](https://github.com/AztecProtocol/aztec-packages/issues/8897)) ([2ebe361](https://github.com/AztecProtocol/aztec-packages/commit/2ebe3611ad3826443b31e5626a4e08cdd90f0f2a))
+* Getcontractinstance instruction returns only a specified member ([#9300](https://github.com/AztecProtocol/aztec-packages/issues/9300)) ([29b692f](https://github.com/AztecProtocol/aztec-packages/commit/29b692f9e81e1ee809e37274cf6ac2ab0ca526ce))
+* Print finalized size and log dyadic size during Ultra proof construction ([#9411](https://github.com/AztecProtocol/aztec-packages/issues/9411)) ([84fdc52](https://github.com/AztecProtocol/aztec-packages/commit/84fdc526f73027a3450bcdcc78b826fc9da8df88))
+
+
+### Bug Fixes
+
+* **avm:** Address bytecode hashing comments ([#9436](https://github.com/AztecProtocol/aztec-packages/issues/9436)) ([a85f92a](https://github.com/AztecProtocol/aztec-packages/commit/a85f92a24f4ec988a4d472651a0e2827bf9381b2))
+
+
+### Miscellaneous
+
+* **avm:** Allocate memory for unshifted polynomials according to their trace col size ([#9345](https://github.com/AztecProtocol/aztec-packages/issues/9345)) ([a67d0e2](https://github.com/AztecProtocol/aztec-packages/commit/a67d0e2122945998119a8643a4fb4e74fccc7f34))
+* Bumping L2 gas and public reads constants ([#9431](https://github.com/AztecProtocol/aztec-packages/issues/9431)) ([91c50dd](https://github.com/AztecProtocol/aztec-packages/commit/91c50dd6c52bc95aab4748d022516fc1b5fd5fe6))
+
 ## [0.60.0](https://github.com/AztecProtocol/aztec-packages/compare/barretenberg-v0.59.0...barretenberg-v0.60.0) (2024-10-24)
 
 
